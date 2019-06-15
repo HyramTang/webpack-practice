@@ -17,5 +17,9 @@
     "url": "https://github.com/HyramTang/webpack-practice/issues"
   },
   "homepage": "https://github.com/HyramTang/webpack-practice#readme",
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^4.34.0",
+    "webpack-cli": "^3.3.4"
+  }
 }
