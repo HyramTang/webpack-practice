@@ -6,11 +6,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './search.less';
+import webpackLogo from './images/webpack.png';
 
 class Search extends React.Component {
 
     render() {
-        return <div className="search-text">Search Text</div>;;
+        return <div className="search-text">
+            搜索文字 <img src={webpackLogo}/>
+            </div>;
     }
 }
 
